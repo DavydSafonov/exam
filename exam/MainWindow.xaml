@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Events" HorizontalAlignment="Left" Margin="124,46,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="220,50,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Tickets" HorizontalAlignment="Left" Margin="420,42,0,0" VerticalAlignment="Top"/>
+        <ListBox Margin="42,86,569,126"/>
+        <ListBox Margin="306,86,290,126"/>
+        <Label Content="Number of Tickets" HorizontalAlignment="Left" Margin="332,385,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="474,389,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Book" HorizontalAlignment="Left" Margin="700,385,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
