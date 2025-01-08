@@ -24,14 +24,6 @@ namespace exam
 
         public EventType TypeOfEvent { get; set; }
 
-        /*public Event(string name, DateTime eventDate, EventType typeOfEvent)
-        {
-            Name = name;
-            EventDate = eventDate;
-            TypeOfEvent = typeOfEvent;
-            Tickets = new List<Ticket>();
-        }*/
-
         public override string ToString()
         {
             return $"{Name}, {EventDate}, {TypeOfEvent}";

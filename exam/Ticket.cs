@@ -12,9 +12,6 @@ namespace exam
 
         public decimal AdditionalCost { get; set; }
 
-        public VIPticket(string name, decimal price, int availableTickets) : base(name, price, availableTickets)
-        {
-        }
     }
     internal class Ticket
     {
@@ -22,14 +19,7 @@ namespace exam
 
         public decimal Price { get; set; }
 
-        public int availableTickets { get; set; }
-
-        public Ticket(string name, decimal price, int availableTickets)
-        {
-            Name = name;
-            Price = price;
-            availableTickets = availableTickets;
-        }
+        public int AvailableTickets { get; set; }
 
     }
 }
